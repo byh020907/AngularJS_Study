@@ -5,12 +5,15 @@
   <title>Google Phone Gallery</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
   <link rel="stylesheet" href="app.css" />
+
   <script src="lib/angular/angular.js"></script>
+  <script src="lib/angular-route/angular-route.js"></script>
   <script src="import-util.js"></script>
   <script src="app.module.js"></script>
+  <script src="app.config.js"></script>
 </head>
 <body>
-<phone-list></phone-list>
+<div ng-view></div>
 </body>
 </html>
 
